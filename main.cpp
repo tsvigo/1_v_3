@@ -131,9 +131,9 @@ void printVector2(const std::vector<mpz_class>& vec) {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char *argv[])
 {
-//    QCoreApplication a(argc, argv);
+    QCoreApplication app(argc, argv);
 // Используем QApplication вместо QCoreApplication, чтобы поддерживать графические компоненты
-    QApplication app(argc, argv);
+  //  QApplication app(argc, argv);
 //########################################################################################################
     std::cout << "1_v_3" << std::endl;
 //########################################################################################################
